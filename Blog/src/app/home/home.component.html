@@ -1,0 +1,18 @@
+
+<h1 class="text-center">The newest entries</h1>
+
+<div class="row">
+	<div *ngFor="let product of products" class="col-lg-6 p-4">
+		<div class="card">
+		<img class="card-img-top" src="{{product.image}}">
+		<div class="card-body">
+		<h2 class="card-title">{{product.name}}</h2>
+		<p class="card-text" [innerHTML]="product.description"></p>
+		<p class="card-text">{{product.release}}</p>
+		<p class="card-text">{{product.creator}}</p>
+		</div>
+		</div>
+		
+	</div>
+	
+</div>
