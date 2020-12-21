@@ -5,30 +5,30 @@
     First Name:
     <input type="text" formControlName="firstName" [ngClass]="{'is-invalid': submitted && contactForm.get('firstName').errors}" class="form-control">
     <div class="invalid-feedback">
-        <label *ngIf="submitted && contactForm.get('firstName').errors.required">
+        <label *ngIf="submitted && contactForm.get('firstName').errors?.required">
         This field is required</label>
-        <label *ngIf="submitted && contactForm.get('firstName').errors.minlength">
+        <label *ngIf="submitted && contactForm.get('firstName').errors?.minlength">
             Min 3 letters</label>
     </div>
 
     Last Name:
     <input type="text" formControlName="lastName" [ngClass]="{'is-invalid': submitted && contactForm.get('lastName').errors}" class="form-control">
     <div class="invalid-feedback">
-        <label *ngIf="submitted && contactForm.get('lastName').errors.required">
+        <label *ngIf="submitted && contactForm.get('lastName').errors?.required">
             This field is required</label>
     </div>
 
     Email:
     <input type="text" formControlName="email" [ngClass]="{'is-invalid': submitted && contactForm.get('email').errors}" class="form-control">
     <div class="invalid-feedback">
-        <label *ngIf="submitted && contactForm.get('email').errors.required">
+        <label *ngIf="submitted && contactForm.get('email').errors?.required">
             This field is required</label>
     </div>
 
     Message:
     <input type="text" formControlName="message" [ngClass]="{'is-invalid': submitted && contactForm.get('message').errors}" class="form-control">
     <div class="invalid-feedback">
-        <label *ngIf="submitted && contactForm.get('message').errors.required">
+        <label *ngIf="submitted && contactForm.get('message').errors?.required">
             This field is required</label>
     </div>
 
