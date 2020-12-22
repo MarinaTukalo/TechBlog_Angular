@@ -10,6 +10,7 @@ import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
 import { HeroComponent } from './hero/hero.component';
 import { FooterComponent } from './footer/footer.component';
+import { ScrollTopComponent } from './scroll-top/scroll-top.component';
 
 
 @NgModule({
@@ -20,7 +21,8 @@ import { FooterComponent } from './footer/footer.component';
     AboutComponent,
     ContactComponent,
     HeroComponent,
-    FooterComponent
+    FooterComponent,
+    ScrollTopComponent
   ],
   imports: [
     BrowserModule,
