@@ -1,1 +1,24 @@
 /* You can add global styles to this file, and also import other style files */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+.navbar-brand {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.25rem;
+}
+
+p,
+.nav-link {
+    font-family: 'Abel', sans-serif;
+    font-size: 1.2rem;
+}
+
+.main-image {
+    background: url("assets/images/hero.jpg") no-repeat center 90%;
+    height: 35rem;
+    background-size: cover;
+}
