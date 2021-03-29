@@ -4,11 +4,11 @@
 </p>
 <details>
   <summary>Layout of "About us" & "Contact" pages</summary>
-  <br>About us page<br>
+  <br>About us page<br><br>
   <p align="center">
     <img width="700" src="layout/2.png" name="about_us">
   </p>
-  <br>Contact page<br>
+  <br>Contact page<br><br>
   <p align="center">
     <img width="700" src="layout/3.png" name="contact">
   </p>
@@ -20,7 +20,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 <ul>
   <li>Landing page contains blogposts which are dynamically coming from the topics.ts</li>
   <li>"About us" has static content</li>
-  <li>"Contact" page displayes information about location using google map (for now picture), contact form with validation.</li>
+  <li>"Contact" page displays information about location using google map (for now picture), contact form with validation.</li>
 </ul>
 
 The project is fully responsive, has social media icons and its own favicon.ico.
