@@ -1,13 +1,34 @@
+# TechBlog CONNECT:
+<p align="center">
+  <img width="700" src="layout/1.png" name="home_page">
+</p>
 <details>
-  <summary>Layout screen shots</summary>
-  <img src="layout/1.png" name="image-name">
-  <img src="layout/2.png" name="image-name">
-  <img src="layout/3.png" name="image-name">
+  <summary>Layout of "About us" & "Contact" pages</summary>
+  <br>About us page<br>
+  <p align="center">
+    <img width="700" src="layout/2.png" name="about_us">
+  </p>
+  <br>Contact page<br>
+  <p align="center">
+    <img width="700" src="layout/3.png" name="contact">
+  </p>
 </details>
 
-# TechBlog
-
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.7.
+
+**The TechBlog CONNECT: has three pages:**
+<ul>
+  <li>Landing page contains blogposts which are dynamically coming from the topics.ts</li>
+  <li>"About us" has static content</li>
+  <li>"Contact" page displayes information about location using google map (for now picture), contact form with validation.</li>
+</ul>
+
+The project is fully responsive, has social media icons and its own favicon.ico.
+
+**The followung tools were used in the project**:
+* bootstrap v.4.5.3
+* font-awesome library
+* google-fonts
 
 ## Development server
 
