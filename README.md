@@ -1,4 +1,11 @@
-# Blog
+<details>
+  <summary>Layout screen shots</summary>
+  <img src="layout/1.png" name="image-name">
+  <img src="layout/2.png" name="image-name">
+  <img src="layout/3.png" name="image-name">
+</details>
+
+# TechBlog
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.7.
 
