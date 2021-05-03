@@ -25,10 +25,13 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 The project is fully responsive, has social media icons and its own favicon.ico.
 
-**The followung tools were used in the project**:
+**The following tools are used in the project**:
 * bootstrap v.4.5.3
 * font-awesome library
 * google-fonts
+
+
+**// Disclaimer: The whole website is for educational purposes only //**
 
 ## Development server
 
